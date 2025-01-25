@@ -1,0 +1,9 @@
+<div style="height: 100vh; display:flex; justify-content: center; align-items: center;">
+    <div>
+        <ion-input label="Text input" placeholder="Email" [(ngModel)]="email"></ion-input>
+        <ion-input label="Text input" type='password' placeholder="Password" [(ngModel)]="password"></ion-input>
+        <div style="text-align: center;">
+            <ion-button (click)="login()">Login</ion-button>
+        </div>
+    </div>
+</div>
