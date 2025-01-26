@@ -1,0 +1,7 @@
+{
+  "name": "zap-chat-client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
