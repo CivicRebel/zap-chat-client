@@ -16,7 +16,7 @@ export class LoginComponent {
   constructor(
     private apiClient: Client,
     private router: Router
-  ){}
+  ){};
 
   login() {
     const request = new LoginRequest();
